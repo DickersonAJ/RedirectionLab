@@ -120,7 +120,7 @@ public class PigLatin {
   }
 
   public static void main(String[]args){
-    System.out.println("pigLatinSimple Test");
+    /*System.out.println("pigLatinSimple Test");
     String testring = "One fish, two fish,\nred fish, blue fish!\na b c 1 2 3";
     System.out.println(testring);
     System.out.println(pigLatinSimple(testring));
@@ -133,7 +133,11 @@ public class PigLatin {
     System.out.println("pigLatinBest Test");
     //String testring = "One fish, two fish,\nred fish, blue fish!\na b c 1 2 3";
     System.out.println(testring);
-    System.out.println(pigLatinBest(testring));
+    System.out.println(pigLatinBest(testring));*/
+    Scanner n = new Scanner(System.in);
+    while (n.hasNextLine()) {
+      System.out.print(pigLatinBest(n.nextLine()));
+    }
   }
 
 }
